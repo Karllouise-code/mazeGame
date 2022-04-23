@@ -602,7 +602,7 @@ Partial Class MazeGame
         'Finish
         '
         Me.Finish.AutoSize = True
-        Me.Finish.Location = New System.Drawing.Point(-26, 215)
+        Me.Finish.Location = New System.Drawing.Point(-28, 215)
         Me.Finish.Name = "Finish"
         Me.Finish.Size = New System.Drawing.Size(34, 13)
         Me.Finish.TabIndex = 55

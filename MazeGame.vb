@@ -14,7 +14,7 @@
         MoveToStart()
     End Sub
 
-    Private Sub Finish_MouseEnter(sender As Object, e As EventArgs)
+    Private Sub Finish_MouseEnter(sender As Object, e As EventArgs) Handles Finish.MouseEnter
         MessageBox.Show("Well Done!")
         Close()
     End Sub
