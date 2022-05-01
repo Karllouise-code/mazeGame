@@ -1,5 +1,9 @@
 ﻿Public Class MazeGame
+
+
     Public Sub New()
+        ' Dim GTR As Icon
+        'GTR = (My.Resources.dotRedCursor2)
         InitializeComponent()
         MessageBox.Show("Guess the Finish Path", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information)
         MessageBox.Show("Use Mouse to Control, Avoid touching the lasers")
@@ -8,7 +12,6 @@
     Private Sub MoveToStart()
         Dim StartingPoint = Panel1.Location()
         StartingPoint.Offset(20, 450)
-
         Cursor.Position = PointToScreen(StartingPoint)
     End Sub
 
@@ -21,4 +24,5 @@
         MessageBox.Show("Well Done!")
         Close()
     End Sub
+
 End Class

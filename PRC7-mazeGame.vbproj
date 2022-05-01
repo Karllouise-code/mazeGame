@@ -146,5 +146,11 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\dotRedCursor.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\dotRedCursor2.ico" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
