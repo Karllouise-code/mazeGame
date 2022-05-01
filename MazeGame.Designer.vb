@@ -25,6 +25,7 @@ Partial Class MazeGame
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(MazeGame))
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.PictureBox47 = New System.Windows.Forms.PictureBox()
         Me.PictureBox46 = New System.Windows.Forms.PictureBox()
@@ -81,7 +82,6 @@ Partial Class MazeGame
         Me.Label51 = New System.Windows.Forms.Label()
         Me.Label53 = New System.Windows.Forms.Label()
         Me.Label58 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         CType(Me.PictureBox47, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox46, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -204,6 +204,15 @@ Partial Class MazeGame
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(499, 12)
         Me.Label6.TabIndex = 109
+        '
+        'Label5
+        '
+        Me.Label5.BackColor = System.Drawing.Color.Black
+        Me.Label5.Location = New System.Drawing.Point(-9, 548)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(21, 43)
+        Me.Label5.TabIndex = 57
         '
         'Label4
         '
@@ -809,15 +818,6 @@ Partial Class MazeGame
         Me.Label58.Name = "Label58"
         Me.Label58.Size = New System.Drawing.Size(31, 23)
         Me.Label58.TabIndex = 56
-        '
-        'Label5
-        '
-        Me.Label5.BackColor = System.Drawing.Color.Black
-        Me.Label5.Location = New System.Drawing.Point(-9, 548)
-        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(21, 43)
-        Me.Label5.TabIndex = 57
         '
         'MazeGame
         '

@@ -71,12 +71,11 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        '''  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         '''</summary>
-        Friend ReadOnly Property dotRedCursor2() As System.Drawing.Icon
+        Friend ReadOnly Property monsterAudio() As System.IO.UnmanagedMemoryStream
             Get
-                Dim obj As Object = ResourceManager.GetObject("dotRedCursor2", resourceCulture)
-                Return CType(obj,System.Drawing.Icon)
+                Return ResourceManager.GetStream("monsterAudio", resourceCulture)
             End Get
         End Property
     End Module
